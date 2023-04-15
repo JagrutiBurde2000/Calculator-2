@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+ }
+
+ .root{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   font-size: 24px;
+   
+ }
+ 
+ 
+ input{
+     padding:5px;
+     border: 2px solid black;
+ }
+ button{
+     width:150px;
+     height: 50px;
+     background-color: aqua;
+     border-radius:20px;
+     border:none;
+      /* position: relative;
+     top:40vh; */
+     font-size: 24px;
+ }
+ 
+ button:hover{
+     background-color: brown;
+ }
+ h1{
+     margin-bottom:20px;
+     text-decoration: underline;
+ }
+ input{
+    font-size: 24px;
+ }
